@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <script src="https://kit.fontawesome.com/9f9910fa49.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <div class="clock-container">
+      <div class="clock-border">
+        <div id="clock" class="clock"></div>
+      </div>
+    </div>
+    <div class="set-time  alarm-container">
+      <div class="alarm-inputs">
+        <div class="input-container">
+        <select id="hr"class="alarm-input" value=""></select>
+        <select id="min"class="alarm-input"  value=""></select>
+        <select id="sec" class="alarm-input" value=""></select>
+        <select id="lg"class="alarm-input"  value="">
+          <option value="am"><h1>A.M</h1></option>
+          <option value="pm"><h1>P.M</h1></option>
+       </select>
+       
+      <input type="submit"class="alarm-period" value="Set" id="set" />
+      </div>
+      </div>
+    
+      <div id="list" class="alarm-list-container">
+        <div class="alarm-el fir">Alarms</div>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <script src="./src/bundle.js"></script>
+    <link rel="stylesheet" href="./application.css">
+    <link rel="stylesheet" href="./font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <title>Alarm Clock</title>
+  </head>
+
+  <body>
+    <div class="clock-container">
+      <div class="clock-border">
+        <div id="clock" class="clock"></div>
+      </div>
+    </div>
+
+    <div class="alarm-container">
+      <h1>Alarm Clock</h1>
+
+      <form id="alarm-form">
+        <div class="alarm-inputs">
+          <div class="input-container">
+            <input id="hr" class="alarm-input" maxlength="2" placeholder="HR">
+            <input id="min" class="alarm-input" maxlength="2" placeholder="MIN">
+            <input id="sec" class="alarm-input" maxlength="2" placeholder="MIN">
+          </div>
+          <div id="lg" class="input-container">
+            <button id="am-btn" class="alarm-period active-period" type="button" value="am">
+              AM
+            </button>
+            <button id="pm-btn" class="alarm-period" type="button" value="pm">
+              PM
+            </button>
+          </div>
+        </div>
+
+        <button class="alarm-submit-btn" value="Set" id="set" form="alarm-form" type="submit" name="button">
+          SET ALARM
+        </button>
+      </form>
+
+      <div id="list" class="alarm-list-container">
+          <div class="alarm-el">No Alarms</div>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html> -->
